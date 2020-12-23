@@ -13,6 +13,10 @@
 		36FE9637259399D10069E3A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FE9622259399D00069E3A6 /* ContentView.swift */; };
 		36FE9638259399D10069E3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FE9623259399D10069E3A6 /* Assets.xcassets */; };
 		36FE9639259399D10069E3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FE9623259399D10069E3A6 /* Assets.xcassets */; };
+		36FE9645259399EA0069E3A6 /* RollBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FE9644259399EA0069E3A6 /* RollBoardView.swift */; };
+		36FE9646259399EA0069E3A6 /* RollBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FE9644259399EA0069E3A6 /* RollBoardView.swift */; };
+		36FE964A2593A2460069E3A6 /* RollCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FE96492593A2460069E3A6 /* RollCellView.swift */; };
+		36FE964B2593A2460069E3A6 /* RollCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FE96492593A2460069E3A6 /* RollCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,8 @@
 		36FE9630259399D10069E3A6 /* FlipBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FE9632259399D10069E3A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36FE9633259399D10069E3A6 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		36FE9644259399EA0069E3A6 /* RollBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollBoardView.swift; sourceTree = "<group>"; };
+		36FE96492593A2460069E3A6 /* RollCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 				36FE9621259399D00069E3A6 /* FlipBoardApp.swift */,
 				36FE9622259399D00069E3A6 /* ContentView.swift */,
 				36FE9623259399D10069E3A6 /* Assets.xcassets */,
+				36FE9644259399EA0069E3A6 /* RollBoardView.swift */,
+				36FE96492593A2460069E3A6 /* RollCellView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -187,6 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36FE964A2593A2460069E3A6 /* RollCellView.swift in Sources */,
+				36FE9645259399EA0069E3A6 /* RollBoardView.swift in Sources */,
 				36FE9636259399D10069E3A6 /* ContentView.swift in Sources */,
 				36FE9634259399D10069E3A6 /* FlipBoardApp.swift in Sources */,
 			);
@@ -196,6 +206,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36FE964B2593A2460069E3A6 /* RollCellView.swift in Sources */,
+				36FE9646259399EA0069E3A6 /* RollBoardView.swift in Sources */,
 				36FE9637259399D10069E3A6 /* ContentView.swift in Sources */,
 				36FE9635259399D10069E3A6 /* FlipBoardApp.swift in Sources */,
 			);
